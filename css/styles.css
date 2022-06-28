@@ -1,0 +1,41 @@
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40% auto auto 20%;
+    grid-template-areas: 
+        ". . . ."
+        "a1 a2 a3 a4"
+        "b1 b2 b3 b4"
+        ". . . ."
+
+}
+img{
+    border: 1px solid black
+
+}
+
+#a1{
+    grid-area: a1;
+}
+#a2{
+    grid-area: a2;
+}
+#a3{
+    grid-area: a3;
+}
+#a4{
+    grid-area: a4;
+}
+#b1{
+    grid-area: b1;
+}
+#b2{
+    grid-area: b2;
+}
+#b3{
+    grid-area: b3;
+}
+#b4{
+    grid-area: b4;
+}
